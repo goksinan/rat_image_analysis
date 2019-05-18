@@ -1,0 +1,32 @@
+
+# Create a virtual environment called "env0" using venv package
+python3 -m venv env0 
+
+# Activate the virtual environment
+source env0/bin/activate
+
+# See the installed packages
+pip list
+
+# Install a new package, e.g. numpy
+pip install numpy
+
+# Deactivate the virtual environment
+deactivate
+
+# Delete the virtual environment
+rm -rf env0/
+
+# How to create a requirements.txt file?
+pip freeze > requirements.txt
+
+# How to use requirements.txt file after creating a new environment?
+pip install -r requirements.txt
+
+# How to make system packages available when creating a new environment?
+python3 -m venv venv --system-site-packages
+source venv/bin/activate
+
+# How to see the local packages that we installed? (Not the system packages we brought)
+pip list --local
+
