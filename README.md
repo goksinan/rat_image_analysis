@@ -40,24 +40,28 @@ Figure 2. The flowchart
 <br><br>
 
 **Step 1:** Read the frames, convert it to gray scale, and specify the Region of Interest (ROI)
+
 <img src="fig3_gray.png" alt="Grayscale" width="320"/>
 
 Figure 3. ROI is shown as the white rectangle 
 <br><br>
 
 **Step 2:** Convert frame to a binary image and use `cv2.findContours()` to find large white areas 
+
 <img src="fig4_BW.png" alt="Binary image" width="320"/>
 
 Figure 4. Binarized
 <br><br>
 
 **Step 3:** Use `cv2.findContours()` to find the desired large white area and mark it
+
 <img src="fig5_contour.png" alt="Contour" width="320"/>
 
 Figure 5. Contour idntified
 <br><br>
 
 **Step 4:** Finally, choose a window of interest to follow rat's paw movements
+
 <img src="fig6_roi.png" alt="Roi" width="320"/>
 
 Figure 6. We are interested in the pixel variations within the RED area
