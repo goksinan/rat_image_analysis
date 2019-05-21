@@ -70,6 +70,6 @@ Figure 6. We are interested in the pixel variations within the RED area
 ### The overall process looks like this:
 
 <video poster="fig7_poster.png" id="player" playsinline controls>
-    <source src="video.mp4" type="video/mp4" />
+    <source src="output110.mp4" type="video/mp4" />
     <source src="video.webm" type="video/webm" />
 </video>
