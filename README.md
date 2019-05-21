@@ -34,8 +34,12 @@ We can ***analyze the video recordings*** to figure out how many times rat attem
 
 Here is the basic flowchart that I implemented:
 <br><br>
-<img src="fig2_flowchart.png" alt="Reach-to-pull task" width="150"/>
+<img src="fig2_flowchart.png" alt="Flow chart" width="150"/>
 
 Figure 2. The flowchart
 <br><br><br>
-**Step 1:** Read the frames and convert it to gray scale
+
+**Step 1:** Read the frames, convert it to gray scale, and specify the Region of Interest (ROI)
+<img src="fig3_gray.png" alt="Grayscale" width="320"/>
+Figure 3. ROI is shown as the white rectangle 
+<br><br>
