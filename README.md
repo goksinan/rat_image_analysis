@@ -46,7 +46,7 @@ Figure 2. The flowchart
 Figure 3. ROI is shown as the white rectangle 
 <br><br>
 
-**Step 2:** Convert frame to a binary image and use `cv2.findContours()` to find large white areas 
+**Step 2:** Convert frame to a binary image
 
 <img src="fig4_BW.png" alt="Binary image" width="320"/>
 
@@ -66,3 +66,10 @@ Figure 5. Contour idntified
 
 Figure 6. We are interested in the pixel variations within the RED area
 <br><br>
+
+### The overall process looks like this:
+
+<video poster="fig7_poster.png" id="player" playsinline controls>
+    <source src="video.mp4" type="video/mp4" />
+    <source src="video.webm" type="video/webm" />
+</video>
